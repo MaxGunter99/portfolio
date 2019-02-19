@@ -174,12 +174,14 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1, h2, h3, h4, h5, h6, p {
 		color: #ffffff;
+		text-shadow: 3px 3px #525252;
 		font-weight: bold;
 		line-height: 1.5;
-		margin: 0 0 0.5em 0;
+		margin: 0 0 0.5em 0; 
 	}
+	
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
@@ -1866,7 +1868,7 @@ input, select, textarea {
 			-webkit-transition: opacity 0.2s ease, -webkit-transform 0.2s ease;
 			-ms-transition: opacity 0.2s ease, -ms-transform 0.2s ease;
 			transition: opacity 0.2s ease, transform 0.2s ease;
-			background: #ffffff;
+			background: #ffc60a;
 			border-radius: 3em;
 			content: '';
 			height: 100%;
@@ -1945,7 +1947,7 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			border-color: rgba(255, 255, 255, 0.55) !important;
+			border-color: rgb(255, 207, 51) !important;
 		}
 
 			input[type="submit"]:hover:after,
@@ -1953,7 +1955,7 @@ input, select, textarea {
 			input[type="button"]:hover:after,
 			button:hover:after,
 			.button:hover:after {
-				opacity: 0.05;
+				opacity: 0.5;
 				-moz-transform: scale(1);
 				-webkit-transform: scale(1);
 				-ms-transform: scale(1);
@@ -3748,10 +3750,10 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #ff0000, #fffb00);
+				background-image: -webkit-linear-gradient(to right, #ff0000, #fffb00);
+				background-image: -ms-linear-gradient(to right, #ff0000, #fffb00);
+				background-image: linear-gradient(to right, #fc0000, #fffb00);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3760,7 +3762,7 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:hover {
-				color: rgba(255, 255, 255, 0.55);
+				color: rgb(255, 255, 255);
 			}
 
 			#sidebar nav a.active {
@@ -3857,10 +3859,11 @@ input, select, textarea {
 
 	#intro {
 		background-attachment: fixed;
-		background-image: url("images/intro.svg");
-		background-position: top right;
+		background-image: url("/Users/voidchaser/Lambda/portfolio-website/images/mixtape.jpg");
+		background-position: right top;
 		background-repeat: no-repeat;
-		background-size: 100% 100%;
+		background-size: 80%;
+		
 	}
 
 		#intro p {
