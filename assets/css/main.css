@@ -176,7 +176,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6, p {
 		color: #ffffff;
-		text-shadow: 3px 3px #525252;
+		text-shadow: 3px 3px #000000;
 		font-weight: bold;
 		line-height: 1.5;
 		margin: 0 0 0.5em 0; 
@@ -3890,6 +3890,27 @@ input, select, textarea {
 
 			#intro {
 				background-attachment: scroll;
+			}
+
+		}
+
+		@media screen and (max-width: 1279px) {
+
+			#intro {
+				background-attachment: scroll;
+				background-size: 115%;
+				background-position: center;
+				border-radius: 5% 5% 0 0;
+			}
+
+		}
+
+		@media screen and (max-width: 500px) {
+
+			#one .image {
+				background-attachment: scroll;
+				background-size: 80%%;
+				background-position: center;
 			}
 
 		}
