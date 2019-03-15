@@ -3864,6 +3864,7 @@ input, select, textarea {
 		background-repeat: no-repeat;
 		background-size: 80%;
 		
+		
 	}
 
 		#intro p {
@@ -3914,3 +3915,5 @@ input, select, textarea {
 			}
 
 		}
+	}
+}
